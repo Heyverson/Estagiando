@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "650035885795",
+    "firebase_url": "https://estagiandoapp-cc857.firebaseio.com",
+    "project_id": "estagiandoapp-cc857",
+    "storage_bucket": "estagiandoapp-cc857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650035885795:android:7e75230bfc24bbc5",
+        "android_client_info": {
+          "package_name": "com.example.heyverson.estagiando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650035885795-nemjf46m08hb3een3u9o0pbdj9a0lbq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heyverson.estagiando",
+            "certificate_hash": "c38cf1fcc12629807ea661faf60c567ba7442f5d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASH3tvHhMulYLtcyENvseo_WNRhLnoU0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650035885795-aup2qlt9qp1a0tgt7d80q9h98ro480s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

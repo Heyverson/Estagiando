@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnotacaoActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edtSetor"
+        app:layout_constraintEnd_toStartOf="@+id/tvId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtSetor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/setor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edtComentario"
+        app:layout_constraintEnd_toStartOf="@+id/btnSalvarRelatorio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtData" />
+
+    <EditText
+        android:id="@+id/edtComentario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:ems="10"
+        android:hint="@string/coment_rio"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/listRelatorios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSetor" />
+
+    <Button
+        android:id="@+id/btnSalvarRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="134dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/salvar"
+        app:layout_constraintBottom_toTopOf="@+id/listRelatorios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtSetor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listRelatorios"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalvarRelatorio" />
+    z
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="74dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/edtData"
+        app:layout_constraintEnd_toStartOf="@+id/btnSalvarRelatorio"
+        app:layout_constraintStart_toEndOf="@+id/edtData"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
